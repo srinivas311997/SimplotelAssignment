@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+body{
+    background:linear-gradient(to right, #e3ca8b 30% 900px, #efc7f4 30%); 
+}
+
+
+.maindiv{
+    
+    justify-content: center;
+    align-items: center;
+    padding-top: 132px;
+    margin-left: 170px;
+}
+
+.div1{
+    background-image: url(pexels-rachel-claire-6752433.jpeg);
+    height: 215px;
+    width: 266px;
+    background-size: 90% 100% ;
+    background-repeat:no-repeat;
+    
+}
+
+.div2{
+    display: flex;
+    background-image: url(pexels-eva-bronzini-6141651.jpeg);
+    height: 215px;
+    width: 266px;
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    margin-top: 9px;  
+}
+
+.div3{
+    background-image: url(pexels-mister-mister-3434523.jpeg);
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    margin-left: 270px; 
+    height: 440px;
+    width: 290px;
+}
+
+
+.box{
+    display: flex;
+    position: absolute;
+    background-color: #ff7171;
+    margin-top: 220px;
+    margin-left: 800px; 
+    height: 260.5px;
+    width: 512.3px;
+}
+
+
+.t1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 30px;
+    
+    margin-left: 50px; 
+    height: 24px;
+    width: 109px;
+}
+
+.t2{
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+    font-size: 60px;
+    margin-left: 50px; 
+    height: 160px;
+    width: 500px;
+}
+
+.Click{
+    display: flex;
+    position: absolute;
+    margin-top: 215px;
+    font-size: 15px;
+    margin-left: 50px; 
+    height: 20px;
+    width: 42px;
+}
+
+.arrow{
+    display: flex;
+    position: absolute;
+   background-image: url(icons8-arrow-30.png);
+    margin-top: 214px;
+    font-size: 15px;
+    margin-left: 90px; 
+    background-size: cover;
+    height: 20px;
+    width: 20px; 
+}
+
+
+@media screen and (max-width:310px) {
+    .maindiv {
+        padding-top: 100px; /* Adjust padding for larger screens */
+    }
+    .div1, .div2, .div3 {
+        width: 30%; /* Set width for larger screens */
+        margin-bottom: 0; /* Reset margin */
+    }
+    .div3 {
+        margin-left: 20px; /* Add some space between divs */
+    }
+    .box {
+        margin-top: 20px; /* Adjust margin */
+        height: 300px; /* Adjust height as needed */
+    }
+
+}
